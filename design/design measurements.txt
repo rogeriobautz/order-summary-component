@@ -1,0 +1,99 @@
+order summary design measurement taken from jpg files on figma
+all measures are pixels
+
+
+MOBILE
+
+body
+709 x 375
+bcg color #D6E1FF
+
+card
+567 x 327
+  border radius 19
+
+image
+327 x 160
+
+title
+font color #2B385A
+font size 16
+
+paragraph
+font color #757889
+font size 11
+
+rectangle plan {
+278x81
+border radius 12
+background color #F8F9FE
+
+musical note size 
+48x48
+
+description font size 10
+
+change button font size 9 underline
+change button font color #453AA0
+}
+
+payment button {
+279x50
+border radius 10
+bcg color #382AE1
+shadow border bottom difuse 16px
+font size 11
+}
+
+cancel button {
+same as payment button - guessed
+no bcg
+font size 11
+font color #6E7182
+}
+
+DESKTOP
+
+body
+1440X900
+
+card
+697X450
+border radius 18
+
+image
+450X220
+
+title
+font size 20
+
+paragraph
+font size 12
+
+rectangle plan {
+354X99
+description font size 12
+change button font size 10
+}
+
+payment button
+354x50
+
+cancel button
+same as payment button - guessed
+
+
+HOVER
+
+all
+cursor pointer 
+
+payment button
+bcg color #766CF1
+
+change button
+font color #766CF1
+remove underline
+
+cancel buton
+font color #181F3C

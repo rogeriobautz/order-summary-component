@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  min-width: 375px;
+  min-height: 100vh;
+  background-image: url(/images/pattern-background-mobile.svg);
+  background-color: rgba(214, 225, 255, 0.6);
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;
+  background-attachment: fixed;
+  background-position: top center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+}
+
+.card {
+  width: 328px;
+  border-radius: 19px;
+  overflow: hidden;
+  /* margin: 0 auto; */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 30px 25px -10px rgb(182, 193, 235);
+}
+
+.hero {
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  color: #171e31;
+  margin-top: 37px;
+}
+
+.title,
+.choice,
+.change-button {
+  font-weight: 900;
+}
+
+.description {
+  font-size: 15px;
+  color: #717171;
+  margin-top: 14px;
+  line-height: 26px;
+  text-align: center;
+  padding: 0 35px;
+}
+
+.plan {
+  width: 278px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #f8f9fe;
+  border-radius: 12px;
+}
+.note {
+  width: 48px;
+}
+.plan-choice {
+  margin-right: 25px;
+  font-size: 15px;
+  color: #192440;
+}
+
+.price {
+  color: #717171;
+  font-weight: 500;
+}
+
+.change-button {
+  color: rgb(77, 65, 191);
+  text-decoration: underline;
+  font-size: 13px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.change-button:hover {
+  color: rgba(77, 65, 191, 0.8);
+  text-decoration: none;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  padding: 15px;
+  transition: 0.3s ease;
+  font-weight: 700;
+}
+
+.payment-button {
+  margin-top: 24px;
+  width: 278px;
+  background-color: rgb(56, 42, 225);
+  color: #fff;
+  box-shadow: 0px 16px 15px rgba(56, 42, 225, 25%);
+}
+
+.payment-button:hover {
+  background-color: rgb(56, 42, 225, 0.8);
+}
+
+.cancel-button {
+  margin-top: 10px;
+  background-color: transparent;
+  color: #6e7182;
+}
+
+.cancel-button:hover {
+  color: #000000;
+}
+
+a,
+a button {
+  cursor: pointer;
+}
+@media (min-width: 450px) {
+  body {
+    background-image: url(/images/pattern-background-desktop.svg);
+  }
+}
+@media (min-width: 1439px) {
+  .card {
+    width: 450px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .plan,
+  .payment-button {
+    width: 354px;
+  }
+  .plan-choice {
+    font-size: 18px;
+  }
+  .change-button {
+    font-size: 15px;
+  }
+}
