@@ -10,6 +10,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Changes after reviews](#changes)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -40,6 +41,13 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+
+### Changes after reviews
+
+- Replace "/folder/..." for "./folder/..." to Git Hub Pages load images properly.
+- Add background-size:contain to body for better display.
+- Remove button tag from inside a tag in html and style all a tags as buttons.
+- Add margin-bottom on cancel-button to match design requirements.
 
 ### What I learned
 

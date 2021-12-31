@@ -19,6 +19,7 @@ body {
   background-blend-mode: color-burn;
   background-attachment: fixed;
   background-position: top center;
+  background-size: contain;
   align-items: center;
   justify-content: center;
   font-family: 'Red Hat Display', sans-serif;
@@ -29,7 +30,6 @@ body {
   width: 328px;
   border-radius: 19px;
   overflow: hidden;
-  /* margin: 0 auto; */
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -100,13 +100,13 @@ body {
   text-decoration: none;
 }
 
-button {
+.button {
   border-radius: 10px;
-  border: none;
   font-size: 17px;
   padding: 15px;
   transition: 0.3s ease;
   font-weight: 700;
+  text-align: center;
 }
 
 .payment-button {
@@ -125,14 +125,14 @@ button {
   margin-top: 10px;
   background-color: transparent;
   color: #6e7182;
+  margin-bottom: 20px;
 }
 
 .cancel-button:hover {
   color: #000000;
 }
 
-a,
-a button {
+a {
   cursor: pointer;
 }
 @media (min-width: 450px) {
