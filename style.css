@@ -13,7 +13,7 @@ body {
   width: 100%;
   min-width: 375px;
   min-height: 100vh;
-  background-image: url(/images/pattern-background-mobile.svg);
+  background-image: url(./images/pattern-background-mobile.svg);
   background-color: rgba(214, 225, 255, 0.6);
   background-repeat: no-repeat;
   background-blend-mode: color-burn;
@@ -137,7 +137,7 @@ a button {
 }
 @media (min-width: 450px) {
   body {
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
   }
 }
 @media (min-width: 1439px) {
